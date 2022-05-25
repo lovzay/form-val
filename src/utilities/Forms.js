@@ -60,7 +60,7 @@ class Form {
           ) {
             results.push({
               [key[0]]: [
-                `The ${key[0]} must at least ${key[1].minLength} characters.`,
+                `The ${key[0]} must be at least ${key[1].minLength} characters with mixture of special characters, uppercase and lowercase letters.`,
               ],
             });
           }
